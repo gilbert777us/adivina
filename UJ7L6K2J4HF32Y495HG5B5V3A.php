@@ -1,10 +1,6 @@
 <!DOCTYPE HTML>  
 <?php 
-  	session_start();
-  	if ($_SESSION["entrar"]==2)
-    {
-        header("Location:UJ7L6K0J4HF32Y495HG5B5V3A.php");
-    }
+session_start(); 
 function getNombreCarta($c)
 {
   	// decodificación del get de la carta
